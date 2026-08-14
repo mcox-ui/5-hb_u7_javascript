@@ -10,5 +10,3 @@ let response = nombre ? ("Respuesta recibida.") : ("No recibimos tu respuesta. P
 
 alert(response);
 console.log(response);
-
-
