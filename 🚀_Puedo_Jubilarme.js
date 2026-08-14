@@ -20,7 +20,7 @@
 // Optimizá tu código de modo que, todo el ejercicio, se resuelva con un solo if. Usá operadores lógicos y de relación.
 
 let edad = prompt("Ingrese su edad");
-let genero = prompt("Ingrese su género (hombre/mujer)").toLocaleUpperCase();
+let genero = prompt("Ingrese su género (hombre/mujer)").toLowerCase();
 
 if (genero === "mujer" && edad >= 60) {
 
